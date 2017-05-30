@@ -1,5 +1,6 @@
 void setup () {
 size(800, 900);
+
 var keycode=1;
 var chec=0;
 var c1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -80,7 +81,7 @@ draw=function(){
 background(0, 0, 255);
     fill(0, 255, 0);
 noStroke();
-rect(140*keycode-137, 812, 80, 80);
+rect(138.5*keycode-130, 812, 80, 80);
 stroke(10);
 if(mousePressed==true&&chec==1){
 if(keycode==1||keycode==6){
@@ -141,8 +142,8 @@ text("R Points:", j*80+35, (k+1)*80-36);
 text("U Points:", j*80+35, (k+1)*80-27);
 text("M Points:", j*80+35, (k+1)*80-18);
 text("P Points:", j*80+35, (k+1)*80-9);
-textSize(9);
-text(nrows[j][k], j*80, (k+1)*80-72, 80, 80);
+textSize(8.5);
+text(nrows[j][k], j*80+5, (k+1)*80-72, 70, 80);
 }
 }
 textSize(75);
