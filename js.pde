@@ -1,8 +1,11 @@
-void setup () {
-size(800, 900);
-
+size(900, 900);
+var sx = 10;
+var sy = 10;
 var keycode=1;
 var chec=0;
+textFont("Courier");
+var rdm =0;
+var rdmr =0;
 var c1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var c2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var c3 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -78,10 +81,10 @@ var nrows=[n1, n2, n3, n4, n5, n6, n7, n8, n9, n10];
 var mse=0;
 var lock=0;
 draw=function(){
-background(0, 0, 255);
-    fill(0, 255, 0);
+background(120-rdm, 168-rdm, 250);
+    fill(255);
 noStroke();
-rect(138.5*keycode-130, 812, 80, 80);
+ellipse(135*keycode-76, 853, 85, 85);
 stroke(10);
 if(mousePressed==true&&chec==1){
 if(keycode==1||keycode==6){
@@ -109,13 +112,25 @@ chec=1;
 fill(255, 0, 0);
 strokeWeight(10);
 textSize(10);
-
-
+if(rdm>49){
+rdmr=0;
+}
+if(rdm<1){
+rdmr=1;
+}
+if(rdmr==0){
+rdm-=0.5;
+}
+if(rdmr==1){
+rdm+=0.5;
+}
+line(800, 800, 800, 900);
 var checkk = function(){
 for(var vab=0; vab<10; vab++){
-
+    
 for(var vaa=0; vaa<10; vaa++){
-rect(vaa*80, vab*80, 80, 80);
+fill(70+rdm, 118+rdm, 250);
+rect(vaa*80, vab*80, 80, 80);    
 }
 }
 }
@@ -123,13 +138,14 @@ checkk();
 
 fill(255, 127, 0);
 noStroke();
-if(mouseY<800){
+if(mouseY<800&&mouseX<800){
+fill(30+rdm, 78+rdm, 250);
 rect( (round((mouseX+32)/80)*80)-75, round((mouseY-48)/80)*80+5, 70, 70);
 }
 strokeWeight(10);
 stroke(0);
 textAlign(CENTER);
-fill(255, 255, 0);
+fill(255, 255, 255);
 for(var k =0; k<10; k++){
 for(var j =0; j<10; j++){
 text(trows[j][k], j*80+65, (k+1)*80-45);
@@ -142,15 +158,14 @@ text("R Points:", j*80+35, (k+1)*80-36);
 text("U Points:", j*80+35, (k+1)*80-27);
 text("M Points:", j*80+35, (k+1)*80-18);
 text("P Points:", j*80+35, (k+1)*80-9);
-textSize(8.5);
+textSize(9);
 text(nrows[j][k], j*80+5, (k+1)*80-72, 70, 80);
+
 }
 }
 textSize(75);
 fill(0);
-text("T    R    U    M    P",333, 880);
-textSize(120);
-text("*", 735, 920);
+text("T    R    U    M    P    ★", 400, 880);
 
 
     if(keyCode==LEFT&&keyPressed){
@@ -174,5 +189,3 @@ keycode++;
 
     }
 };
-
-}
