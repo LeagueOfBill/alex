@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/menu_sideslide.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
+      <link rel="sytlesheet" href="canvasswitch.css">
 
   </head>
   <body>
@@ -243,11 +244,59 @@
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Our Trial</h2>
                 <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Try it out. Its easy.</p>
-                  <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Use the arrow keys to switch between TRUMP competensies. The * gives all 5 points at once.</p>
+                  <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Use the arrow keys to switch between TRUMP competensies.</p>
                   
                   
+                  
+                  
+                  <button onclick="myFunction()">Switch Class</button>
+
+<div id="myDIV">
+  <script src="hi.js"></script>
+<canvas data-processing-sources="js.pde"></canvas>
+</div>
+                  
+                  <script>
+                  var x = document.getElementById('myDIV');
+                      (x.style.display = 'block');
+                  
+                  </script>
+                  <script>
+                      function myFunction() {
+    var x = document.getElementById('myDIV2');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'none';
+    }
+}
+             
+ </script>
+                  
+                  <div id="myDIV2">
                   <script src="hi.js"></script>
-                  <canvas data-processing-sources="js.pde"></canvas>
+                      <canvas data-processing-sources="js2.pde"></canvas>
+                  </div>
+                  
+                  <script>
+                  var x = document.getElementById('myDIV2');
+                      (x.style.display = 'none');
+                  
+                  </script>
+                  
+                  <script>
+                                    function myFunction() {
+    var x = document.getElementById('myDIV2');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+                  
+                  
+                  
+                  </script>
                  
                       
                   
