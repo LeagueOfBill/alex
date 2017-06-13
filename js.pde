@@ -67,16 +67,16 @@ var g10= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var prows=[g1, g2, g3, g4, g5, g6, g7, g8, g9, g10];
 
 
-var n1=[“Liam Albright”, “Joshua Ghan”, “Mima Patel”, “John Smith”, “All Father”, “Julius Brown”, “Mother Teresa”, “ Sinbad Douglas”, “Jack Oldman”, “Nichola Calf”];
-var n2=[“Alexis Battlenife”, “Creator Lu”, “Shen yun”, “Willy York”, “Donald Duck”, “Tom Riddle”, “Sir Eisenhower”, “Moses Sinless”, “Grover Underhill”, “Thorin Oakenshield”];
-var n3=[“Eragon”, “Harry Potter”, “Roonil Wheezlab”, “Smart Person”, “Meepers Med”, “Dylan Gill”, “Darth Vader”, “Caleb Gamman”, “John Daniels”, “Spock”];
-var n4=[“Scotty”, “Skipper”, “Rico”, “Private”, “Kawolski”, “James T Kirk”, “Number 1”, “Morpheus”, “Trinity”, “Jack Sparrow”];
-var n5=[“Simon Savage”, “Hal Hunt”, “Roger Hunt”, “Skulldugery Pleasant”, “Valkyrie Cain”, “Ghastly Bespoke”, “Dexter Vex”, “Tanith Low”, “Gordon Edgely”, “Anton Shudder”];
-var n6=[“Percy Jackson”, “Annabeth Chase”, “Thalia Grace”, “Jason Grace”, “Frank Zhang”, “Leo Valdez”, “Piper Mclean”, “Will Solace”, “Nico Diangelo”, “Hazel Levesque”];
-var n7=[“Magnus Chase”, “Mallory Keen”, “Halfborn Gunderson”, “Samirh Alabbas”, “Terry Boot”, “Pope Francis”, “Donald Trump”, “Jack Septiceye”, “Matt Lowne”, “Scott Manley”];
-var n8=[“Mario”, “Luigi”, “Kirby”, “Shrek”, “Sheik”, “Marth, “Roy”, “Pacman”, “Captain Falcon”, “Bowser”];
-var n9=[“Cloud”, “Jigglypuff”, “Pikachu”, “Charizard”, “Ryu”, “Little Mac”, “Mega Man”, “Lucas”, “Ness”, “Zelda”];
-var n10=[“Princess Peach”, “Doctor Mario”, “Olimar”, “Corin”, “Robin”, “Bayonetta”, “ShovelKnight”, “MetaKnight”, “Ice Climbers”, “Fox”];
+var n1=["Liam Albright", "Joshua Ghan", "Mima Patel", "John Smith", "All Father","Julius Brown", "Mother Teres", "Sinbad Douglas", "Jack Oldman", "Nichola Calf"];
+var n2=["Alexis Battlenife", "Creator Lu", "Shen yun", "Willy York", "Donald Duck", "Tom Riddle", "Sir Eisenhower", "Moses Sinless", "Grover Underhill", "Thorin Oakenshield"];
+var n3=["Eragon", "Harry Potter", "Roonil Wheezlab", "Smart Person", "Meepers Med", "Dylan Gill", "Darth Vader", "Caleb Gamman", "John Daniels", "Spock"];
+var n4=["Scotty", "Skipper", "Rico", "Private", "Kawolski", "James T Kirk","Number 1", "Morpheus", "Trinity", "Jack Sparrow"];
+var n5=["Simon Savage", "Hal Hunt", "Roger Hunt", "Skulldugery Pleasant", "Valkyrie Cain", “Ghastly Bespoke", "Dexter Vex", "Tanith Low", "Gordon Edgely", "Anton Shudder"];
+var n6=["Percy Jackson", "Annabeth Chase", "Thalia Grace", "Jason Grace", "Frank Zhan", "Leo Valdez", "Piper Mclean", "Will Solace", "Nico Diangelo", "Hazel Levesque"];
+var n7=["Magnus Chase", "Mallory Keen", "Halfborn Gunderson", "Samirh Alabbas", "Terry Boot", "Pope Francis", "Donald Trum", "Jack Septiceye", "Matt Lowne", "Scott Manley"];
+var n8=["Mario", "Luigi", "Kirby", "Shrek", "Sheik", "Marth", "Roy", "Pacman", "Captain Falcon", "Bowser"];
+var n9=["Cloud", "Jigglypuff", "Pikachu", "Charizard","Ryu", "Little Mac", "Mega Man", "Lucas", "Ness", "Zelda"];
+var n10=["Princess Peach", "Doctor Mario", "Olimar","Corin", "Robin", "Bayonetta", "ShovelKnight", "MetaKnight", "Ice Climber", "Fox"];
 
 var nrows=[n1, n2, n3, n4, n5, n6, n7, n8, n9, n10];
 var mse=0;
