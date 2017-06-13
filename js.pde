@@ -226,7 +226,7 @@ rect( (round(mouseX/(800/sx)-0.5)*(800/sx))+5, round((mouseY/(800/sy))-0.5)*(800
 strokeWeight(10);
 stroke(0);
 textAlign(CENTER);
-fill(255, 255, 0);
+fill(255, 255, 255);
 if(sx>=sy){textSize(90/sx);}
 if(sy>=sx){textSize(90/sy);}
 differd=differ;
